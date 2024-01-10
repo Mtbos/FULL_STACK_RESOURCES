@@ -1,0 +1,31 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: red;
+}
+li[value="2"]{
+  text-align: center;
+}
+#id-selector-demo{
+  text-align: center;
+  color: green;
+}
+li[value="4"]{
+  text-align: center;
+  color: blue;
+}
+*[value="5"]{
+  text-align: center;
+}
