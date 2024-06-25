@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <%- include("partials/header.ejs") %>
+    <h1>Write Your Blog Post</h1>
+    <form action="/post" method="POST">
+      <label for="title" id="l1">TITLE</label>
+      <input type="text" name="title" id="title" required /><br /><br />
+      <label for="content" id="l1">CONTENT</label><br />
+      <textarea
+        name="content"
+        id="content"
+        rows="10"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+      <button type="submit" class="btn2">PUBLISH POST</button>
+    </form>
+  </body>
+</html>
